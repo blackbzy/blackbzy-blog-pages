@@ -802,6 +802,27 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -924,9 +945,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="1349 字"
+  title="1541 字"
 >
-  <em>7 分钟</em>阅读</span>
+  <em>8 分钟</em>阅读</span>
 
         </div>
       </div>
@@ -1226,8 +1247,70 @@ npm <span class="nt">-v</span>
   <span class="na">path</span><span class="pi">:</span> <span class="s">assets/attachments/2025/science-fiction/science-fiction02.png</span>
   <span class="na">alt</span><span class="pi">:</span> <span class="s">封面</span>
 </pre></td></tr></tbody></table></code></div>    </div>
+    <h4 id="341-后续vercel部署是assetsjsdistthememinjs文件404"><span class="me-2">3.4.1 后续vercel部署是<code class="language-plaintext highlighter-rouge">assets/js/dist/theme.min.js</code>文件404</span><a href="#341-后续vercel部署是assetsjsdistthememinjs文件404" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
   </li>
 </ol>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>检查项</th>
+      <th>状态</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GitHub 仓库根目录包含 <code class="language-plaintext highlighter-rouge">assets/js/dist/theme.min.js</code>？</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>文件名大小写匹配？</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>vercel 输出目录配置为 <code class="language-plaintext highlighter-rouge">.</code>？</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>不存在 <code class="language-plaintext highlighter-rouge">_site/</code> 子目录部署？</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>请求路径和文件路径完全一致？</td>
+      <td>✅</td>
+    </tr>
+    <tr>
+      <td>访问 Vercel 默认子域名看看能不能打开 JS</td>
+      <td>✅</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p>最后检查出来是 域名 绑定vercel的问题，因为我的的是托管在cloudflare上，dns配置成代理的话，会导致CNAME 配置指向错误:即你现在的 DNS 设置阻止了它的 bot 和静态资源加速、JS 加载等机制</p>
+
+<p>修改方式：在cloudflare上修改dns记录</p>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>主机记录（Host）</th>
+      <th>记录类型</th>
+      <th>值</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>@</td>
+      <td>CNAME</td>
+      <td>cname.vercel-dns.com.</td>
+    </tr>
+    <tr>
+      <td>www</td>
+      <td>CNAME</td>
+      <td>cname.vercel-dns.com.</td>
+    </tr>
+  </tbody>
+</table></div>
 
 <h2 id="未完待续"><span class="me-2">未完待续</span><a href="#未完待续" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <ul class="task-list">
