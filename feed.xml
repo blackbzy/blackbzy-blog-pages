@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>blackbzy</title>
   <subtitle>blackbzy's 博客，日常记录,技术分享</subtitle>
-  <updated>2025-07-23T13:59:11+08:00</updated>
+  <updated>2025-07-26T22:17:55+08:00</updated>
   <author>
     <name>blackbzy</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>暴汗虞山</title>
+    <link href="http://localhost:4000/posts/summer-yushan/" rel="alternate" type="text/html" title="暴汗虞山" />
+    <published>2025-07-26T00:00:00+08:00</published>
+  
+    <updated>2025-07-26T00:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/summer-yushan/</id>
+    <content type="text/html" src="http://localhost:4000/posts/summer-yushan/" />
+    <author>
+      <name>blackbzy</name>
+    </author>
+
+  
+    
+    <category term="trekking" />
+    
+    <category term="china" />
+    
+  
+
+  <summary>要对越野配速和温度要有敬畏之心(；′⌒`)</summary>
+
+  </entry>
 
   
   <entry>
@@ -113,32 +139,6 @@
   
 
   <summary>复盘</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>heavenstamp的live</title>
-    <link href="http://localhost:4000/posts/heavenstamp-live-house2/" rel="alternate" type="text/html" title="heavenstamp的live" />
-    <published>2025-06-20T00:00:00+08:00</published>
-  
-    <updated>2025-07-23T10:03:08+08:00</updated>
-  
-    <id>http://localhost:4000/posts/heavenstamp-live-house2/</id>
-    <content type="text/html" src="http://localhost:4000/posts/heavenstamp-live-house2/" />
-    <author>
-      <name>blackbzy</name>
-    </author>
-
-  
-    
-    <category term="live-house" />
-    
-    <category term="heavenstamp" />
-    
-  
-
-  <summary>快乐也许很简单</summary>
 
   </entry>
 
