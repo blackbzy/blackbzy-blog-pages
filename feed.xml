@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>blackbzy</title>
   <subtitle>blackbzy's 博客，日常记录,技术分享</subtitle>
-  <updated>2025-07-26T22:17:55+08:00</updated>
+  <updated>2025-08-05T10:58:34+08:00</updated>
   <author>
     <name>blackbzy</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,40 @@
 
   
   <entry>
+    <title>再闯虞山</title>
+    <link href="http://localhost:4000/posts/2025summer-yushan02/" rel="alternate" type="text/html" title="再闯虞山" />
+    <published>2025-08-03T00:00:00+08:00</published>
+  
+    <updated>2025-08-03T00:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/2025summer-yushan02/</id>
+    <content type="text/html" src="http://localhost:4000/posts/2025summer-yushan02/" />
+    <author>
+      <name>blackbzy</name>
+    </author>
+
+  
+    
+    <category term="trekking" />
+    
+    <category term="china" />
+    
+  
+
+  <summary>对中暑要有敬畏之心(；′⌒`)</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>暴汗虞山</title>
-    <link href="http://localhost:4000/posts/summer-yushan/" rel="alternate" type="text/html" title="暴汗虞山" />
+    <link href="http://localhost:4000/posts/2025summer-yushan/" rel="alternate" type="text/html" title="暴汗虞山" />
     <published>2025-07-26T00:00:00+08:00</published>
   
     <updated>2025-07-26T00:00:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/summer-yushan/</id>
-    <content type="text/html" src="http://localhost:4000/posts/summer-yushan/" />
+    <id>http://localhost:4000/posts/2025summer-yushan/</id>
+    <content type="text/html" src="http://localhost:4000/posts/2025summer-yushan/" />
     <author>
       <name>blackbzy</name>
     </author>
@@ -98,7 +124,7 @@
     <link href="http://localhost:4000/posts/nine-dragon-top2/" rel="alternate" type="text/html" title="九龙之巅-35度的天，40度的山" />
     <published>2025-06-28T00:00:00+08:00</published>
   
-    <updated>2025-07-23T10:03:08+08:00</updated>
+    <updated>2025-08-05T10:54:58+08:00</updated>
   
     <id>http://localhost:4000/posts/nine-dragon-top2/</id>
     <content type="text/html" src="http://localhost:4000/posts/nine-dragon-top2/" />
@@ -115,30 +141,6 @@
   
 
   <summary>对高温要有敬畏之心(；′⌒`)</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>java-review</title>
-    <link href="http://localhost:4000/posts/java-review/" rel="alternate" type="text/html" title="java-review" />
-    <published>2025-06-22T00:00:00+08:00</published>
-  
-    <updated>2025-07-23T10:03:08+08:00</updated>
-  
-    <id>http://localhost:4000/posts/java-review/</id>
-    <content type="text/html" src="http://localhost:4000/posts/java-review/" />
-    <author>
-      <name>blackbzy</name>
-    </author>
-
-  
-    
-    <category term="back-end" />
-    
-  
-
-  <summary>复盘</summary>
 
   </entry>
 
